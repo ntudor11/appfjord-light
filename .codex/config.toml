@@ -1,0 +1,4 @@
+# Codex CLI reads AGENTS.md at the repo root natively — no override needed.
+# This file exists as a placeholder for any Codex-specific settings you add
+# later (sandboxing, approvals, model choice). See:
+# https://agents.md/ for the shared instruction-file standard this repo follows.
