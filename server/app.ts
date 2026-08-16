@@ -1,11 +1,24 @@
-import express, { type Express, type Request, type Response } from "express";
+import express from "express";
+import cors from "cors";
+import { analyzeRouter } from "./routes/analyze.js";
+import { sampleDataRouter } from "./routes/sampleData.js";
 
-const app: Express = express();
+const app = express();
+const PORT = process.env.PORT ?? 3000;
 
-const PORT = 3000;
+app.use(
+  cors({
+    origin: "http://localhost:5173",
+  }),
+);
 
-app.get("/", (req: Request, res: Response) => {
-  res.json({ message: "Hello World!" });
+app.get("/health", (_req, res) => {
+  res.json({ ok: true });
 });
 
-app.listen(PORT, () => console.log(`Server is listening on port ${PORT}`));
+app.use("/api", analyzeRouter);
+app.use("/api", sampleDataRouter);
+
+app.listen(PORT, () => {
+  console.log(`Server is listening on port ${PORT}`);
+});
