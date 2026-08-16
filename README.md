@@ -110,7 +110,6 @@ const { data } = await axios.post(
 
 ## The Friday Message (email sent to company CFO)
 
-```
 Dear CFO,
 
 I trust all is well. Here is some brief feedback after my first week in the project.
@@ -126,4 +125,3 @@ I’m expecting to have a working prototype by the end of week 3, but I’ll def
 Best,
 
 Your new Agentic Customer Engineer
-```
