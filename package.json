@@ -1,6 +1,7 @@
 {
   "name": "exercise-light",
   "private": true,
+  "type": "module",
   "workspaces": [
     "client",
     "server"
@@ -8,6 +9,7 @@
   "scripts": {
     "dev": "npm --workspace server run dev & npm --workspace client run dev",
     "lint": "npm --workspace client run lint",
-    "build": "npm --workspace client run build"
+    "build": "npm --workspace client run build",
+    "smoke-test": "node --import ./server/node_modules/tsx/dist/loader.mjs server/scripts/ruleEngine.smoke.test.ts"
   }
 }
