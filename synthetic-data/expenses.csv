@@ -1,0 +1,67 @@
+expense_id,date,entity,country,amount,currency,merchant_name,vendor_id,category,is_card,tax_code,vat_amount
+EXP-0001,2026-06-29,SE,SE,361.75,SEK,Riverside Catering Co,V-009,meal,true,,72.35
+EXP-0002,2026-06-04,CA,CA,247.83,CAD,Atlas Freelance Design,V-003,professional_services,true,,49.57
+EXP-0003,2026-07-28,CA,CA,1479.33,CAD,Atlas Freelance Design,V-003,professional_services,true,CA_GST_5,295.87
+EXP-0004,2026-06-20,US,US,550.05,USD,GreenLeaf Marketing LLC,V-019,professional_services,true,US_USE_TAX,
+EXP-0005,2026-07-04,SE,SE,2020.71,SEK,Quantum Data Analytics LLC,V-011,software,false,SE_STANDARD_25,404.14
+EXP-0006,2026-07-17,CH,CH,1449.72,CHF,GreenLeaf Marketing LLC,V-019,professional_services,false,CH_STANDARD_81,289.94
+EXP-0007,2026-07-19,UK,UK,705.76,GBP,Stockholm Meal Delivery AB,V-018,meal,true,UK_ZERO_RATED,
+EXP-0008,2026-06-10,UK,UK,1528.69,GBP,Uber,,travel,false,,305.74
+EXP-0009,2026-08-11,US,US,560.74,USD,Atlas Freelance Design,V-003,professional_services,true,,112.15
+EXP-0010,2026-07-22,SE,SE,680.34,SEK,London Travel Partners Ltd,V-010,travel,true,,136.07
+EXP-0011,2026-07-29,UK,UK,370.04,GBP,SJ Rail,,travel,true,,74.01
+EXP-0012,2026-08-14,CA,CA,1007.51,CAD,Slack,,software,true,,201.5
+EXP-0013,2026-06-15,CA,CA,394.81,CAD,TechStack Solutions LLC,V-007,software,true,,78.96
+EXP-0014,2026-07-30,CA,CA,1329.85,CAD,Atlas Freelance Design,V-003,professional_services,true,CA_GST_5,265.97
+EXP-0015,2026-07-14,SE,SE,292.21,SEK,Gym Membership Nordic,,benefit,false,CA_GST_5,58.44
+EXP-0016,2026-07-09,UK,UK,2106.55,GBP,Delta Airlines,,travel,true,US_USE_TAX,421.31
+EXP-0017,2026-07-12,US,US,1229.19,USD,Office Depot,,office_supplies,true,,245.84
+EXP-0018,2026-08-12,UK,UK,2368.17,GBP,London Travel Partners Ltd,V-010,travel,true,,473.63
+EXP-0019,2026-07-31,SE,SE,2367.92,SEK,Wellness Co,,benefit,true,,473.58
+EXP-0020,2026-06-26,CA,CA,1786.68,CAD,Nordic Cloud Services AB,V-001,software,false,,357.34
+EXP-0021,2026-07-02,UK,UK,573.37,GBP,Atlas Freelance Design,V-003,professional_services,true,,114.67
+EXP-0022,2026-06-10,US,US,1773.98,USD,Maple Office Supplies Inc,V-006,office_supplies,true,,
+EXP-0023,2026-07-01,SE,SE,707.02,SEK,TechStack Solutions LLC,V-007,software,false,UK_REDUCED_5,141.4
+EXP-0024,2026-07-31,CA,CA,2021.63,CAD,Staples,,office_supplies,true,,
+EXP-0025,2026-07-30,CH,CH,2161.63,CHF,Adobe,,software,true,,432.33
+EXP-0026,2026-07-14,SE,SE,2004.47,SEK,Cafe Nord,,meal,false,,
+EXP-0027,2026-06-24,CA,CA,707.18,CAD,Nordic Cloud Services AB,V-001,software,true,,141.44
+EXP-0028,2026-08-09,CH,CH,2092.53,CHF,Precision Legal Advisors LLC,V-014,professional_services,false,CH_STANDARD_81,
+EXP-0029,2026-06-08,CH,CH,424.12,CHF,SAS Airlines,,travel,true,,84.82
+EXP-0030,2026-08-11,CH,CH,1659.75,CHF,Adobe,,software,false,US_EXEMPT,
+EXP-0031,2026-06-08,SE,SE,1873.72,SEK,Health Insurance Plus,,benefit,false,,374.74
+EXP-0032,2026-08-05,CA,CA,214.08,CAD,Maple Office Supplies Inc,V-006,office_supplies,true,,42.82
+EXP-0033,2026-07-02,US,US,1453.61,USD,Precision Legal Advisors LLC,V-014,professional_services,false,,
+EXP-0034,2026-07-04,CA,CA,522.58,CAD,Office Depot,,office_supplies,true,CA_GST_5,
+EXP-0035,2026-06-10,US,US,38.15,USD,Adobe,,software,true,US_STANDARD,7.63
+EXP-0036,2026-07-04,SE,SE,344.15,SEK,Wellness Co,,benefit,false,,
+EXP-0037,2026-07-27,US,US,2086.86,USD,Quantum Data Analytics LLC,V-011,software,true,US_STANDARD,417.37
+EXP-0038,2026-06-14,CA,CA,2348.24,CAD,GreenLeaf Marketing LLC,V-019,professional_services,false,,
+EXP-0039,2026-07-07,SE,SE,1518.0,SEK,Wellness Co,,benefit,true,SE_MEAL_BUSINESS,303.6
+EXP-0040,2026-06-12,UK,UK,1591.2,GBP,GreenLeaf Marketing LLC,V-019,professional_services,true,UK_STANDARD_20,
+EXP-0041,2026-07-27,US,US,1385.93,USD,Nordic Cloud Services AB,V-001,software,false,SE_STANDARD_25,
+EXP-0042,2026-08-14,US,US,1388.02,USD,Maple Office Supplies Inc,V-006,office_supplies,true,SE_MEAL_BENEFIT,277.6
+EXP-0043,2026-07-02,SE,SE,1672.33,SEK,Nordic Cloud Services AB,V-001,software,false,,334.47
+EXP-0044,2026-06-23,CH,CH,2205.32,CHF,Alpine Office Rentals AG,V-013,rent,true,,441.06
+EXP-0045,2026-06-21,UK,UK,1971.63,GBP,Zurich Legal Partners GmbH,V-005,professional_services,true,,394.33
+EXP-0046,2026-07-15,CH,CH,773.4,CHF,Alpine Office Rentals AG,V-013,rent,true,CH_STANDARD_81,
+EXP-0047,2026-06-09,US,US,2417.72,USD,GreenLeaf Marketing LLC,V-019,professional_services,true,,483.54
+EXP-0048,2026-07-04,CH,CH,458.74,CHF,TechStack Solutions LLC,V-007,software,true,CH_REDUCED_26,
+EXP-0049,2026-07-11,CA,CA,1099.44,CAD,Quantum Data Analytics LLC,V-011,software,false,CA_GST_5,219.89
+EXP-0050,2026-07-26,CA,CA,19.2,CAD,GreenLeaf Marketing LLC,V-019,professional_services,true,CA_GST_5,3.84
+EXP-0051,2026-06-16,SE,SE,1803.59,SEK,Slack,,software,true,,
+EXP-0052,2026-07-08,CH,CH,1392.72,CHF,Adobe,,software,false,,278.54
+EXP-0053,2026-08-10,CH,CH,2086.81,CHF,Alpine Office Rentals AG,V-013,rent,true,,
+EXP-0054,2026-07-30,CA,CA,1112.84,CAD,Office Depot,,office_supplies,true,CA_HST_13,222.57
+EXP-0055,2026-07-13,US,US,247.07,USD,Riverside Catering Co,V-009,meal,false,US_USE_TAX,49.41
+EXP-0056,2026-06-06,US,US,623.43,USD,SAS Airlines,,travel,true,SE_REDUCED_12,124.69
+EXP-0057,2026-07-22,CA,CA,621.3,CAD,Atlas Freelance Design,V-003,professional_services,true,CA_GST_5,124.26
+EXP-0058,2026-08-06,SE,SE,1169.41,SEK,Maple Office Supplies Inc,V-006,office_supplies,true,SE_STANDARD_25,233.88
+EXP-0059,2026-08-04,CH,CH,1075.45,CHF,Adobe,,software,false,CH_REDUCED_26,215.09
+EXP-0060,2026-07-06,CH,CH,1918.05,CHF,Uber,,travel,true,US_EXEMPT,383.61
+EXP-0061,2026-07-08,UK,UK,35.85,GBP,FARMER J (FARRINGDON),V-004,meal,true,,
+EXP-0062,2026-06-22,SE,SE,1450.0,SEK,Stockholm Meal Delivery AB,V-018,meal,true,SE_STANDARD_25,
+EXP-0063,2026-06-25,SE,SE,899.0,SEK,Nordic Cloud Services AB,V-001,software,true,UK_STANDARD_20,179.8
+EXP-0064,2026-06-15,US,US,3200.0,USD,Precision Legal Advisors LLC,V-014,professional_services,false,,
+EXP-0065,2026-06-18,US,US,780.0,USD,Atlas Freelance Design,V-003,professional_services,false,,
+EXP-0066,2026-06-30,SE,SE,210.0,SEK,Wellness Co,,benefit,true,SE_MEAL_BUSINESS,42.0

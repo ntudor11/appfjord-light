@@ -1,0 +1,21 @@
+vendor_id,name,country,state,type,category,w9_on_file,w8_on_file
+V-001,Nordic Cloud Services AB,SE,,corporation,software,false,true
+V-002,Bright Consulting LLC,US,CA,corporation,services,true,false
+V-003,Atlas Freelance Design,US,,individual,services,false,false
+V-004,FARMER J (FARRINGDON),UK,,corporation,meals,false,false
+V-005,Zurich Legal Partners GmbH,CH,,corporation,services,false,true
+V-006,Maple Office Supplies Inc,CA,ON,corporation,goods,false,false
+V-007,TechStack Solutions LLC,US,NY,corporation,software,true,false
+V-008,J. Andersson Consulting,SE,,individual,services,false,false
+V-009,Riverside Catering Co,US,,corporation,meals,false,false
+V-010,London Travel Partners Ltd,UK,,corporation,travel,false,false
+V-011,Quantum Data Analytics LLC,US,TX,corporation,software,true,false
+V-012,M. Svensson Freelance,SE,,individual,services,false,false
+V-013,Alpine Office Rentals AG,CH,,corporation,rent,false,false
+V-014,Precision Legal Advisors LLC,US,,corporation,services,false,false
+V-015,Toronto IT Contractors Inc,CA,,individual,services,false,false
+V-016,ABC Inc,US,DE,corporation,software,true,false
+V-017,ABC.co,US,DE,corporation,software,false,false
+V-018,Stockholm Meal Delivery AB,SE,,corporation,meals,false,false
+V-019,GreenLeaf Marketing LLC,US,IL,corporation,services,true,false
+V-020,P. Nilsson Design Studio,SE,,individual,services,false,false
