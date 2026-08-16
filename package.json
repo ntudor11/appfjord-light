@@ -10,6 +10,7 @@
     "dev": "npm --workspace server run dev & npm --workspace client run dev",
     "lint": "npm --workspace client run lint",
     "build": "npm --workspace client run build",
-    "smoke-test": "node --import ./server/node_modules/tsx/dist/loader.mjs server/scripts/ruleEngine.smoke.test.ts"
+    "smoke-test": "node --import ./server/node_modules/tsx/dist/loader.mjs server/scripts/ruleEngine.smoke.test.ts",
+    "analyze": "node --import ./server/node_modules/tsx/dist/loader.mjs server/scripts/analyzeCli.ts"
   }
 }
